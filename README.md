@@ -16,6 +16,7 @@ No menu à esquerda, selecione Endpoints e abra o endpoint em tempo real predict
 
 No painel Dados de entrada para testar o endpoint, substitua o modelo JSON pelos seguintes dados de entrada:
 
+```
 {
    "Inputs": { 
      "data": [
@@ -37,13 +38,16 @@ No painel Dados de entrada para testar o endpoint, substitua o modelo JSON pelos
    },   
    "GlobalParameters": 1.0
 }
+```
 
 Clique no botão Testar.
 
 Revise os resultados do teste:
 
+```
 {
   "Results": [
     298.00910497656025
   ]
 }
+```
